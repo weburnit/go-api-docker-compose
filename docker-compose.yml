@@ -2,16 +2,8 @@ version: "3"
 
 services:
   web:
-    build: .
+    image: weburnit/bfidemo:0.0.14
+    environment:
+      - ADVANCE_AI_KEY=8a6d3792e3ef480a
     ports:
       - 8080:8080
-
-  mongodb:
-    image: bitnami/mongodb:latest
-    ports:
-      - 27017
-    volumes:
-      - mongodb-data:/bitnami/mongodb
-
-volumes:
-  mongodb-data:
