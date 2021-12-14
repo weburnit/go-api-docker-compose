@@ -2,8 +2,6 @@ version: "3"
 
 services:
   web:
-    image: weburnit/bfidemo:0.0.14
-    environment:
-      - ADVANCE_AI_KEY=8a6d3792e3ef480a
+    image: weburnit/bfidemo:0.0.15
     ports:
       - 8080:8080
