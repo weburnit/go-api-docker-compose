@@ -2,8 +2,10 @@ version: "3"
 
 services:
   web:
-    image: weburnit/bfidemo:0.0.15
+    image: weburnit/bfidemo:0.0.16
     environment:
       - ADVANCE_AI_KEY=$ADVANCE_AI_KEY
+      - NANO_KEY=$NANO_KEY
+      - MODEL_ID=$MODEL_ID
     ports:
       - 8080:8080
