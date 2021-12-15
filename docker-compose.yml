@@ -7,5 +7,7 @@ services:
       - ADVANCE_AI_KEY=$ADVANCE_AI_KEY
       - NANO_KEY=$NANO_KEY
       - MODEL_ID=$MODEL_ID
+      - DOMAIN=$DOMAIN
+      - ADVANCE_AI_KEY_V2=$ADVANCE_AI_KEY_V2
     ports:
       - 8080:80
