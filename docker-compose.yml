@@ -10,4 +10,4 @@ services:
       - DOMAIN=$DOMAIN
       - ADVANCE_AI_KEY_V2=$ADVANCE_AI_KEY_V2
     ports:
-      - 8080:80
+      - 8080:8080
